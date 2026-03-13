@@ -44,12 +44,9 @@ export default function ContentDisplay() {
       <div
         className={`flex flex-col flex-1 border-t border-b mx-5 border-stone-600/30 border-solid`}
       >
-        <div className="border-b border-stone-600/30 border-solid pb-5">
-          test
-        </div>
+        <div className="border-b border-stone-600/30 border-solid pb-5 h-[10%] bg-amber-600"></div>
         <PieChart />
         <TotalAcc />
-        <div className="border-b border-stone-600/30 border-solid pb-5 h-[10%]"></div>
       </div>
     </div>
   );
