@@ -1,4 +1,6 @@
 import CriteriaButton from "./CriteriaButton";
+import PieChart from "./PieChart";
+import TotalAcc from "./TotalAcc";
 
 const timeCriterias = ["By Year", "By Month"];
 const expenseCriterias = [
@@ -44,6 +46,8 @@ export default function ContentDisplay() {
         <div className="border-b border-stone-600/30 border-solid pb-5">
           test
         </div>
+        <PieChart />
+        <TotalAcc />
       </div>
     </div>
   );
