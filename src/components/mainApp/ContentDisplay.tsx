@@ -1,4 +1,5 @@
 import CriteriaButton from "./CriteriaButton";
+// import DropBox from "./DropBox";
 
 const timeCriterias = ["By Year", "By Month"];
 const expenseCriterias = [
@@ -39,11 +40,9 @@ export default function ContentDisplay() {
       </div>
 
       <div
-        className={`flex flex-col flex-1 border-t mx-5 border-stone-600/30 border-solid`}
+        className={`flex flex-col flex-1 border-t border-b mx-5 border-stone-600/30 border-solid`}
       >
-        <div className="border-b border-stone-600/30 border-solid pb-5">
-          test
-        </div>
+        <div className="border-b border-stone-600/30 border-solid pb-5 h-[10%]"></div>
       </div>
     </div>
   );
